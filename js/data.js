@@ -67,7 +67,7 @@ questionnaire = [
 		]
 	},
 	{
-		"titulo": "Edad mayor",
+		"titulo": "Observando datos",
 		"contexto": "A continuación se presenta una tabla correspondiente con el censo de 1851, por sexos, de algunas de las principales ciudades de Colombia de la época.",
 		"imagen": "../assets/images/cuadro_3.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es correcta según los datos de la tabla?",

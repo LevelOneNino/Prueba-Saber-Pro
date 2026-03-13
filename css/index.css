@@ -27,8 +27,15 @@
 	padding: 1em;
 	text-decoration: none;
 	background-color: paleturquoise;
-	box-shadow: 10px 10px hsl(180 75% 50%);
+	color: hsl(200 50% 50%);
+	box-shadow: 10px 10px hsl(180 75% 50% / 0.8);
 	border-radius: 2em;
+	transition: box-shadow ease-out 0.2s, color ease-out 0.1s;
+}
+
+.modulo:hover {
+	color: hsl(200 50% 35%);
+	box-shadow: 13px 13px hsl(180 75% 50% / 0.7);
 }
 
 .modulo>.title {
@@ -36,7 +43,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: hsl(200 50% 60%);
 }
 
 .modulo>.progress {

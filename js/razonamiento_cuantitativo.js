@@ -1,22 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const template = document.getElementById("pregunta-template")
+	const template = document.getElementById("list_template")
 	const paper = document.getElementById("paper")
+	const fragment = document.createDocumentFragment()
 
-	questionnaire.forEach((e, i) => {
+	questionnaire.forEach((question, index) => {
 		const clone = document.importNode(template.content, true)
 
-		let anchor = clone.querySelector("a")
-		let pregunta = anchor.querySelector("h3")
-		let icon = anchor.querySelector("img")
+		const anchor = clone.querySelector("a")
+		const numero = anchor.querySelector("h2")
+		const pregunta = anchor.querySelector("h3")
+		const icon = anchor.querySelector("img")
 
-		anchor.href = `razonamiento_cuantitativo/${i}`
-		pregunta.textContent = `${i + 1}. ${e.titulo}`
+		anchor.href = `razonamiento_cuantitativo/pregunta.html?index=${index}`
+		numero.textContent = `${(index + 1).toString().padStart(2, '0')}.`
+		pregunta.textContent = `${question.titulo}`
 
-		if (i in answered) {
+		if (answered.includes(index)) {
 			icon.src = "../assets/icons/star.png"
-			icon.alt="completed"
+			icon.alt = "completed"
 		}
 
-		paper.appendChild(clone)
+		fragment.appendChild(clone)
 	});
+	paper.appendChild(fragment)
 })
