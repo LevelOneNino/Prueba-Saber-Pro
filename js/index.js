@@ -8,10 +8,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	h3.textContent = `${percentage}%`
 	progress.value = percentage
-
-	questionnaire.forEach(pregunta => {
-		pregunta['respuestas'].forEach(respuesta => {
-			console.log(respuesta['texto'], respuesta['correcta'])
-		});
-	});
 })

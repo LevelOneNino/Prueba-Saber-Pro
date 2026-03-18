@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link href="../../css/style.css" rel="stylesheet">
-	<!-- <link href="../css/razonamiento_cuantitativo.css" rel="stylesheet"> -->
+	<link href="../../css/pregunta.css" rel="stylesheet">
 	<script src="../../js/data.js"></script>
-	<!-- <script src="../js/razonamiento_cuantitativo.js"></script> -->
+	<script src="../../js/pregunta.js"></script>
 </head>
 
 <body>
@@ -20,16 +20,41 @@
 	</nav>
 
 	<main>
+
 		<div id="paper">
+			<div class="pregunta">
+				<h4 id="contexto"></h4>
+				<img id="img" src="" alt="grafico">
+				<i id="question">pregunta</i>
+				<div class="answer">
+					<input id="input0" type="radio" name="answered" value="0">
+					<label for="input0" id="label0">A.</label>
+				</div>
+				<div class="answer">
+					<input id="input1" type="radio" name="answered" value="1">
+					<label for="input1" id="label1">B.</label>
+				</div>
+				<div class="answer">
+					<input id="input2" type="radio" name="answered" value="2">
+					<label for="input2" id="label2">C.</label>
+				</div>
+				<div class="answer">
+					<input id="input3" type="radio" name="answered" value="3">
+					<label for="input3" id="label3">D.</label>
+				</div>
+				<button id="respuesta-button" type="button" onclick='responder()'>Responder!</button>
+			</div>
 		</div>
+
+		<dialog id="correcta_dialog">
+			ajua
+		</dialog>
+
+		<dialog id="incorrecta_dialog">
+
+		</dialog>
 	</main>
 
-	<template id="pregunta-template">
-		<a href="modulos/razonamiento_cuantitativo.html" class="pregunta">
-			<h3>1. Razonamiento cuantitativo</h3>
-			<img src="../assets/icons/dot.png" alt="not completed" height="32">
-		</a>
-	</template>
 
 </body>
 

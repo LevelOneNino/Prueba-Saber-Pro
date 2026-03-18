@@ -9,7 +9,7 @@ questionnaire = [
 	{
 		"titulo": "Rango etario",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
-		"imagen": "../assets/images/grafico-5.png",
+		"imagen": "grafico-5.png",
 		"pregunta": "Según la gráfica, la mayor cantidad de	mujeres está en el ragon etario:",
 		"respuestas": [
 			{ "texto": "0-29", "correcta": true },
@@ -21,7 +21,7 @@ questionnaire = [
 	{
 		"titulo": "Porcentaje",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
-		"imagen": "../assets/images/grafico-5.png",
+		"imagen": "grafico-5.png",
 		"pregunta": "Si se desea calcular el porcentaje de personas entre 15 y 34 años respecto al total de la población, ¿cuál de las siguientes expresiones representa correctamente el procedimiento?",
 		"respuestas": [
 			{ "texto": "(Número de personas entre 15 y 34 años / Total de la población) × 100", "correcta": true },
@@ -33,7 +33,7 @@ questionnaire = [
 	{
 		"titulo": "Estructura demográfica",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
-		"imagen": "../assets/images/grafico-5.png",
+		"imagen": "grafico-5.png",
 		"pregunta": "Según la pirámide de edades, ¿cuál de las siguientes afirmaciones es más adecuada para describir la estructura demográfica de Cartagena en 1777?",
 		"respuestas": [
 			{ "texto": "La población estaba compuesta principalmente por adultos mayores.", "correcta": false },
@@ -45,7 +45,7 @@ questionnaire = [
 	{
 		"titulo": "Tasa de masculinidad",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
-		"imagen": "../assets/images/grafico-5.png",
+		"imagen": "grafico-5.png",
 		"pregunta": "La tasa de masculinidad es un indicador demográfico que se calcula como (# hombres/# mujeres) x100 en una población determinada. En el caso de estudio, ¿qué tendencia se observa en la tasa de masculinidad a medida que aumenta la edad?",
 		"respuestas": [
 			{ "texto": "Aumenta progresivamente", "correcta": false },
@@ -57,7 +57,7 @@ questionnaire = [
 	{
 		"titulo": "Edad mayor",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
-		"imagen": "../assets/images/grafico-5.png",
+		"imagen": "grafico-5.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es más adecuada para justificar por qué hay menos hombres en los grupos de edad mayores?",
 		"respuestas": [
 			{ "texto": "La gráfica no permite hacer ninguna inferencia sobre la mortalidad.", "correcta": false },
@@ -69,7 +69,7 @@ questionnaire = [
 	{
 		"titulo": "Observando datos",
 		"contexto": "A continuación se presenta una tabla correspondiente con el censo de 1851, por sexos, de algunas de las principales ciudades de Colombia de la época.",
-		"imagen": "../assets/images/cuadro_3.png",
+		"imagen": "cuadro_3.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es correcta según los datos de la tabla?",
 		"respuestas": [
 			{ "texto": "En todas las ciudades hay más mujeres que hombres.", "correcta": true },
@@ -81,7 +81,7 @@ questionnaire = [
 	{
 		"titulo": "Investigación adicional",
 		"contexto": "A continuación se presenta una tabla correspondiente con el censo de 1851, por sexos, de algunas de las principales ciudades de Colombia de la época.",
-		"imagen": "../assets/images/cuadro_3.png",
+		"imagen": "cuadro_3.png",
 		"pregunta": "Si una ciudad tiene una diferencia significativa entre el número de hombres y mujeres, ¿cuál de las siguientes afirmaciones sería más adecuada para justificar una investigación adicional?",
 		"respuestas": [
 			{ "texto": "La diferencia indica que la ciudad tenía una población equilibrada.", "correcta": false },
@@ -93,7 +93,7 @@ questionnaire = [
 	{
 		"titulo": "Menor población",
 		"contexto": "A continuación se presenta una tabla correspondiente con el censo de 1851, por sexos, de algunas de las principales ciudades de Colombia de la época.",
-		"imagen": "../assets/images/cuadro_3.png",
+		"imagen": "cuadro_3.png",
 		"pregunta": "Si se observa que una ciudad tiene una población total mucho menor que otras, ¿cuál de las siguientes afirmaciones es más adecuada?",
 		"respuestas": [
 			{ "texto": "La ciudad tenía una economía más fuerte.", "correcta": false },
@@ -105,7 +105,7 @@ questionnaire = [
 	{
 		"titulo": "Proporción poblacional",
 		"contexto": "A continuación se presenta una tabla correspondiente con el censo de 1851, por sexos, de algunas de las principales ciudades de Colombia de la época.",
-		"imagen": "../assets/images/cuadro_3.png",
+		"imagen": "cuadro_3.png",
 		"pregunta": "Según la tabla, la ciudad con más mujeres en proporción a su población total era:",
 		"respuestas": [
 			{ "texto": "Cartagena", "correcta": true },
@@ -117,7 +117,7 @@ questionnaire = [
 	{
 		"titulo": "Diferencia porcentual",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "Según el gráfico, el nivel educativo que presenta la mayor diferencia porcentual entre hombres y mujeres de 25 a 34 años es:",
 		"respuestas": [
 			{ "texto": "Básica completa", "correcta": false },
@@ -129,7 +129,7 @@ questionnaire = [
 	{
 		"titulo": "Educación secundaria completa",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "Si se desea calcular el porcentaje total de personas entre 25 y 64 años que alcanzaron al menos educación secundaria completa (hasta 11 o 12 grado), ¿cuál de las siguientes combinaciones de datos se deben sumar?",
 		"respuestas": [
 			{ "texto": "básica incompleta, básica completa, media y superior completa", "correcta": false },
@@ -141,7 +141,7 @@ questionnaire = [
 	{
 		"titulo": "Educación básica incompleta",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "Si se observa que en el grupo de 25–64 años hay más hombres con básica incompleta que mujeres, ¿cuál de las siguientes afirmaciones es más adecuada?",
 		"respuestas": [
 			{ "texto": "Las mujeres no acceden a la educación primaria.", "correcta": false },
@@ -153,7 +153,7 @@ questionnaire = [
 	{
 		"titulo": "Mujeres universitarias",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "Si el 20% de las mujeres entre 25 y 64 años tuviesen educación universitaria completa y el total de mujeres en ese grupo es 9800, las mujeres universitarias serían:",
 		"respuestas": [
 			{ "texto": "980", "correcta": false },
@@ -165,7 +165,7 @@ questionnaire = [
 	{
 		"titulo": "Diferencia en nivel de educación",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es más adecuada para explicar por qué las mujeres entre 25 y 34 años tienen mayores niveles de educación superior que los hombres?",
 		"respuestas": [
 			{ "texto": "Los hombres no están interesados en la educación universitaria.", "correcta": false },
@@ -177,7 +177,7 @@ questionnaire = [
 	{
 		"titulo": "Analizando gráficas",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "De la gráfica se puede concluir que:",
 		"respuestas": [
 			{ "texto": "Los hombres no están interesados en la educación universitaria porque prefieren ser mototaxistas.", "correcta": false },
@@ -189,7 +189,7 @@ questionnaire = [
 	{
 		"titulo": "Analizando conclusiones",
 		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
-		"imagen": "../assets/images/grafico_9.png",
+		"imagen": "grafico_9.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es incorrecta según el gráfico?",
 		"respuestas": [
 			{ "texto": "Las mujeres jóvenes tienen mayor nivel educativo que los hombres jóvenes.", "correcta": false },

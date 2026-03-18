@@ -28,7 +28,8 @@ nav {
 }
 
 main {
-	padding: 1em;
+	padding-inline: 0.5em;
+	padding-block: 1em;
 	width: min(100%, var(--container_width));
 	margin-inline: auto;
 }
@@ -37,7 +38,6 @@ main {
 	background-color: white;
 	width: 100%;
 	padding: 1.5em;
-	padding-bottom: 2em;
 	border-radius: 2em;
 	background-image:
 		linear-gradient(hsl(0 0% 90%) 2px, transparent 2px),
