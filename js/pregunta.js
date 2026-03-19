@@ -38,6 +38,10 @@ function responder() {
 		});
 	}
 	if (questionnaire[index].respuestas[seleccion.value].correcta) {
+		answered.push(index)
+		answered = [... new Set(answered)]
+		localStorage.setItem("answered", JSON.stringify(answered))
+		answered = JSON.parse(localStorage.getItem("answered"))
 		seleccion.parentNode.style.cssText = 'background-color: hsl(from green h s l / 30%);'
 		correcta_dialog.showModal()
 	}
