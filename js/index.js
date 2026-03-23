@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let progress = razonamiento_cuantitativo.querySelector("progress")
 
 	answered = [... new Set(answered)]
-	let percentage = (answered.length / questionnaire.length) * 100
+	let percentage = Math.floor((answered.length / questionnaire.length) * 100)
 
 	h3.textContent = `${percentage}%`
 	progress.value = percentage
