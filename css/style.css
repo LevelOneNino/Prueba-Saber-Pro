@@ -15,6 +15,11 @@
 body {
 	overflow-y: scroll;
 	font-family: sans-serif, system-ui;
+	background-image: url("../assets/images/bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 nav {

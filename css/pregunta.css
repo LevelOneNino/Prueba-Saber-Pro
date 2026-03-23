@@ -83,6 +83,13 @@ dialog img {
 
 dialog h3 {
 	padding: 1em;
+	text-align: center;
+}
+
+dialog video {
+	aspect-ratio: 16/9;
+	max-width: 100%;
+	height: auto;
 }
 
 #incorrecta_dialog {

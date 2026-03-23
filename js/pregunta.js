@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const label1 = document.getElementById("label1")
 	const label2 = document.getElementById("label2")
 	const label3 = document.getElementById("label3")
-	const video_retroalimentacion = document.getElementById("video_retroalimentacion")
 
 	contexto.textContent = questionnaire[index].contexto
 	img.src = `../../assets/images/${questionnaire[index].imagen}`
@@ -25,9 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
 	label2.textContent = `C. ${questionnaire[index].respuestas[2].texto}`
 	label3.textContent = `D. ${questionnaire[index].respuestas[3].texto}`
 
-	video_retroalimentacion.querySelectorAll("source").forEach(source => {
-		source.src = `../../assets/videos/${questionnaire[index]["retroalimentacion"]["video"]}`
+	incorrecta_dialog.addEventListener("close", () => {
+		video_retroalimentacion.pause()
+		video_retroalimentacion.currentTime = 0
 	});
+
 })
 function responder() {
 	seleccion = document.querySelector('input[type="radio"]:checked')
@@ -53,6 +54,11 @@ function responder() {
 	else {
 		seleccion.parentNode.style.cssText = 'background-color: hsl(from red h s l / 10%);'
 		incorrecta_dialog.showModal()
+		const video_retroalimentacion = document.getElementById("video_retroalimentacion")
+		video_retroalimentacion.querySelectorAll("source").forEach(source => {
+			source.src = `../../assets/videos/${questionnaire[index]["retroalimentacion"]["video"]}`
+		});
+		video_retroalimentacion.load()
 	}
 
 }
