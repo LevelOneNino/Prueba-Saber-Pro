@@ -8,7 +8,7 @@ answered = JSON.parse(answered)
 questionnaire = [
 	{
 		"titulo": "Rango etario",
-		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
+		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1977.",
 		"imagen": "grafico-5.png",
 		"pregunta": "Según la gráfica, la mayor cantidad de	mujeres está en el ragon etario:",
 		"respuestas": [
@@ -23,7 +23,7 @@ questionnaire = [
 	},
 	// {
 	// 	"titulo": "Porcentaje",
-	// 	"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
+	// 	"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1977.",
 	// 	"imagen": "grafico-5.png",
 	// 	"pregunta": "Si se desea calcular el porcentaje de personas entre 15 y 34 años respecto al total de la población, ¿cuál de las siguientes expresiones representa correctamente el procedimiento?",
 	// 	"respuestas": [
@@ -40,7 +40,7 @@ questionnaire = [
 		"titulo": "Estructura demográfica",
 		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1977.",
 		"imagen": "grafico-5.png",
-		"pregunta": "Según la pirámide de edades, ¿cuál de las siguientes afirmaciones es más adecuada para describir la estructura demográfica de Cartagena en 1777?",
+		"pregunta": "Según la pirámide de edades, ¿cuál de las siguientes afirmaciones es más adecuada para describir la estructura demográfica de Cartagena en 1977?",
 		"respuestas": [
 			{ "texto": "La población estaba compuesta principalmente por adultos mayores.", "correcta": false },
 			{ "texto": "La población tenía una proporción equilibrada entre hombres y mujeres en todos los rangos de edad.", "correcta": false },
@@ -53,7 +53,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Tasa de masculinidad (CORREGIR)",
-		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
+		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1977.",
 		"imagen": "grafico-5.png",
 		"pregunta": "La tasa de masculinidad es un indicador demográfico que se calcula como (# hombres/# mujeres) x100 en una población determinada. En el caso de estudio, ¿qué tendencia se observa en la tasa de masculinidad a medida que aumenta la edad?",
 		"respuestas": [
@@ -68,7 +68,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Edad mayor",
-		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1777.",
+		"contexto": "A continuación se presenta la pirámide de edades de la población de Cartagena de Indias en el año 1977.",
 		"imagen": "grafico-5.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es más adecuada para justificar por qué hay menos hombres en los grupos de edad mayores?",
 		"respuestas": [
@@ -143,7 +143,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Diferencia porcentual",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "Según el gráfico, el nivel educativo que presenta la mayor diferencia porcentual entre hombres y mujeres de 25 a 34 años es:",
 		"respuestas": [
@@ -158,7 +158,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Educación secundaria completa",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "Si se desea calcular el porcentaje total de personas entre 25 y 64 años que alcanzaron al menos educación secundaria completa, ¿cuál de las siguientes combinaciones de datos se deben sumar?",
 		"respuestas": [
@@ -173,7 +173,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Educación básica incompleta",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "Si se observa que en el grupo de 25–64 años hay más hombres con básica incompleta que mujeres, ¿cuál de las siguientes afirmaciones es más adecuada?",
 		"respuestas": [
@@ -188,7 +188,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Mujeres universitarias",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "Si el 20% de las mujeres entre 25 y 64 años tuviesen educación universitaria completa y el total de mujeres en ese grupo es 9800, las mujeres universitarias serían:",
 		"respuestas": [
@@ -203,7 +203,7 @@ questionnaire = [
 	},
 	{
 		"titulo": "Diferencia en nivel de educación",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es más adecuada para explicar por qué las mujeres entre 25 y 34 años tienen mayores niveles de educación superior que los hombres?",
 		"respuestas": [
@@ -233,14 +233,14 @@ questionnaire = [
 	},
 	{
 		"titulo": "Analizando conclusiones",
-		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2005. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
+		"contexto": "A continuación se presenta un gráfico que muestra el porcentaje de la población de Cartagena de Indias que alcanzó algún nivel de enseñanza en los rangos de edad 25–64 y 25–34 años, desagregado por género, según el censo de 2025. Básica en el gráfico es hasta 9no grado, básica incompleta es que terminó antes del 9no, y media completa es desde 10mo hasta 11no o 12 grado.",
 		"imagen": "grafico_9.png",
 		"pregunta": "¿Cuál de las siguientes afirmaciones es incorrecta según el gráfico?",
 		"respuestas": [
 			{ "texto": "Las mujeres jóvenes tienen mayor nivel educativo que los hombres jóvenes.", "correcta": false },
 			{ "texto": "Los hombres superan a las mujeres en todos los niveles educativos.", "correcta": true },
 			{ "texto": "La proporción de personas con educación universitaria completa es mayor en el grupo 25-34 que en el grupo 25-64.", "correcta": false },
-			{ "texto": "La brecha de género en educación superior favorece a las mujeres en 2005.", "correcta": false },
+			{ "texto": "La brecha de género en educación superior favorece a las mujeres en 2025.", "correcta": false },
 		],
 		"retroalimentacion": {
 			"video": "Respuesta_15.mp4"
