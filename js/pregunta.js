@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const label1 = document.getElementById("label1")
 	const label2 = document.getElementById("label2")
 	const label3 = document.getElementById("label3")
+	const video_retroalimentacion = document.getElementById("video_retroalimentacion")
 
 	contexto.textContent = questionnaire[index].contexto
 	img.src = `../../assets/images/${questionnaire[index].imagen}`
@@ -23,6 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	label1.textContent = `B. ${questionnaire[index].respuestas[1].texto}`
 	label2.textContent = `C. ${questionnaire[index].respuestas[2].texto}`
 	label3.textContent = `D. ${questionnaire[index].respuestas[3].texto}`
+
+	video_retroalimentacion.querySelectorAll("source").forEach(source => {
+		source.src = `../../assets/videos/${questionnaire[index]["retroalimentacion"]["video"]}`
+	});
 })
 function responder() {
 	seleccion = document.querySelector('input[type="radio"]:checked')

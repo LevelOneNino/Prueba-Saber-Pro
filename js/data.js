@@ -16,7 +16,10 @@ questionnaire = [
 			{ "texto": "40-89", "correcta": false },
 			{ "texto": "25-59", "correcta": false },
 			{ "texto": "20-39", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "Respuesta_1.mp4"
+		}
 	},
 	{
 		"titulo": "Porcentaje",
@@ -28,7 +31,10 @@ questionnaire = [
 			{ "texto": "(Número de personas entre 15 y 34 años / Número de mujeres) × 100", "correcta": false },
 			{ "texto": "ninguna de las anteriores", "correcta": false },
 			{ "texto": "(Número de personas entre 15 y 34 años / Número de hombres) × 100", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Estructura demográfica",
@@ -40,7 +46,10 @@ questionnaire = [
 			{ "texto": "La población tenía una proporción equilibrada entre hombres y mujeres en todos los rangos de edad.", "correcta": false },
 			{ "texto": "La población tenía una base ancha, lo que indica alta natalidad.", "correcta": true },
 			{ "texto": "La mayoría de la población estaba en edad avanzada, lo que indica baja mortalidad.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Tasa de masculinidad",
@@ -52,7 +61,10 @@ questionnaire = [
 			{ "texto": "Se mantiene constante", "correcta": false },
 			{ "texto": "Disminuye progresivamente", "correcta": true },
 			{ "texto": "Fluctúa sin patrón definido", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Edad mayor",
@@ -64,7 +76,10 @@ questionnaire = [
 			{ "texto": "La gráfica muestra que los hombres eran más numerosos en todos los grupos de edad.", "correcta": false },
 			{ "texto": "Los hombres vivían más años que las mujeres en esa época.", "correcta": false },
 			{ "texto": "Es probable que la mortalidad masculina aumentara con la edad.", "correcta": true },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Observando datos",
@@ -76,7 +91,10 @@ questionnaire = [
 			{ "texto": "En ninguna ciudad hay más mujeres que hombres.", "correcta": false },
 			{ "texto": "En algunas ciudades hay más hombres que mujeres.", "correcta": false },
 			{ "texto": "Todas las ciudades tienen igual número de hombres y mujeres.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Investigación adicional",
@@ -88,7 +106,10 @@ questionnaire = [
 			{ "texto": "La diferencia puede deberse a errores de transcripción en el censo.", "correcta": true },
 			{ "texto": "La diferencia sugiere que no se necesita más análisis.", "correcta": false },
 			{ "texto": "La diferencia no tiene relevancia estadística.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Menor población",
@@ -100,7 +121,10 @@ questionnaire = [
 			{ "texto": "La ciudad tenía más mujeres que hombres.", "correcta": false },
 			{ "texto": "La ciudad era probablemente menos urbanizada o menos desarrollada.", "correcta": true },
 			{ "texto": "La ciudad probablemente tenía una alta densidad poblacional.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Proporción poblacional",
@@ -112,7 +136,10 @@ questionnaire = [
 			{ "texto": "Bogotá", "correcta": false },
 			{ "texto": "Barranquilla", "correcta": false },
 			{ "texto": "Popayán", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Diferencia porcentual",
@@ -124,7 +151,10 @@ questionnaire = [
 			{ "texto": "Universitaria completa", "correcta": true },
 			{ "texto": "Básica incompleta", "correcta": false },
 			{ "texto": "Media completa", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Educación secundaria completa",
@@ -136,7 +166,10 @@ questionnaire = [
 			{ "texto": "superior completa", "correcta": false },
 			{ "texto": "media completa y superior completa", "correcta": true },
 			{ "texto": "básica incompleta, básica completa y media completa", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Educación básica incompleta",
@@ -148,7 +181,10 @@ questionnaire = [
 			{ "texto": "Los hombres abandonan más la educación básica.", "correcta": true },
 			{ "texto": "La educación primaria no es obligatoria para los hombres.", "correcta": false },
 			{ "texto": "Los cartageneros prefieren enviar a la escuela a las mujeres mas no a los hombres.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Mujeres universitarias",
@@ -160,7 +196,10 @@ questionnaire = [
 			{ "texto": "800", "correcta": false },
 			{ "texto": "2000", "correcta": false },
 			{ "texto": "1960", "correcta": true },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Diferencia en nivel de educación",
@@ -172,7 +211,10 @@ questionnaire = [
 			{ "texto": "Las políticas educativas recientes han favorecido el acceso femenino a la educación superior.", "correcta": true },
 			{ "texto": "Las mujeres tienen más tiempo libre para estudiar.", "correcta": false },
 			{ "texto": "Las mujeres siempre han tenido mayor acceso a la educación.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Analizando gráficas",
@@ -184,7 +226,10 @@ questionnaire = [
 			{ "texto": "La población joven para el año 2005 tenía menos formación educativa que la población adulta mayor", "correcta": false },
 			{ "texto": "Cartagena es una ciudad donde todos los grupos de edades y sexos tienen la misma formación educativa", "correcta": false },
 			{ "texto": "La población joven para el año 2005 tenía mejor formación educativa que la población adulta mayor.", "correcta": true },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 	{
 		"titulo": "Analizando conclusiones",
@@ -196,6 +241,9 @@ questionnaire = [
 			{ "texto": "Los hombres superan a las mujeres en todos los niveles educativos.", "correcta": true },
 			{ "texto": "La proporción de personas con educación universitaria completa es mayor en el grupo 25-34 que en el grupo 25-64.", "correcta": false },
 			{ "texto": "La brecha de género en educación superior favorece a las mujeres en 2005.", "correcta": false },
-		]
+		],
+		"retroalimentacion": {
+			"video": "video-url"
+		}
 	},
 ]
