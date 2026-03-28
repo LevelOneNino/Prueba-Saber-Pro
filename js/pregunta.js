@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	label3.textContent = `D. ${questionnaire[index].respuestas[3].texto}`
 
 	incorrecta_dialog.addEventListener("close", () => {
+		let video_retroalimentacion = incorrecta_dialog.querySelector(".video_retroalimentacion")
+		video_retroalimentacion.pause()
+		video_retroalimentacion.currentTime = 0
+	});
+	correcta_dialog.addEventListener("close", () => {
+		let video_retroalimentacion = correcta_dialog.querySelector(".video_retroalimentacion")
 		video_retroalimentacion.pause()
 		video_retroalimentacion.currentTime = 0
 	});
@@ -50,11 +56,16 @@ function responder() {
 		answered = JSON.parse(localStorage.getItem("answered"))
 		seleccion.parentNode.style.cssText = 'background-color: hsl(from green h s l / 30%);'
 		correcta_dialog.showModal()
+		const video_retroalimentacion = correcta_dialog.querySelector(".video_retroalimentacion")
+		video_retroalimentacion.querySelectorAll("source").forEach(source => {
+			source.src = `../../assets/videos/${questionnaire[index]["retroalimentacion"]["video"]}`
+		});
+		video_retroalimentacion.load()
 	}
 	else {
 		seleccion.parentNode.style.cssText = 'background-color: hsl(from red h s l / 10%);'
 		incorrecta_dialog.showModal()
-		const video_retroalimentacion = document.getElementById("video_retroalimentacion")
+		const video_retroalimentacion = incorrecta_dialog.querySelector(".video_retroalimentacion")
 		video_retroalimentacion.querySelectorAll("source").forEach(source => {
 			source.src = `../../assets/videos/${questionnaire[index]["retroalimentacion"]["video"]}`
 		});
